@@ -3,6 +3,10 @@ public class Calculator{
         System.out.println("Main Function");
     }
 
+    int multiply(int x,int y){
+        return x*y;
+    }
+
     int subtract(int x,int y){
         return x-y;
     }
@@ -17,5 +21,6 @@ public class Calculator{
         c.print();
         System.out.println(c.addition(10, 20));
         System.out.println(c.subtract(10, 4));
+        System.out.println(c.multiply(10, 7));
     }
 }
